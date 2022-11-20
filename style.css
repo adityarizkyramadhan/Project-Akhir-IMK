@@ -1,6 +1,7 @@
 * {
   font-family: "Poppins", sans-serif;
 }
+
 .navbar {
   background-color: rgb(223, 223, 223) !important;
   border-radius: 0px 0px 15px 15px;
@@ -23,4 +24,9 @@
   background-color: rgb(223, 223, 223) !important;
   border-radius: 15px 15px 0px 0px;
   box-shadow: 0px 0px 10px #9a9a9a;
+}
+
+ul {
+  list-style-type: none;
+  font-size: 14px;
 }
