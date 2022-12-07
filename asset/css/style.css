@@ -1,195 +1,193 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 body {
-    font-family: 'Poppins', sans-serif;
-    font-size: 16px;
-    line-height: 22px;
-    color: #222;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+  color: #222;
 }
 
 .main {
-    width: 1170px;
-    margin: 100px auto;
+  width: 1170px;
+  margin: 100px auto;
 }
 
 .section-title {
-    text-align: left;
-    margin-bottom: 80px;
+  text-align: left;
+  margin-bottom: 80px;
 }
 
 .section-title h2 {
-    text-transform: capitalize;
-    font-size: 36px;
-    position: relative;
-    display: inline-block;
-    padding-bottom: 20px;
-    margin-bottom: 10px;
+  text-transform: capitalize;
+  font-size: 36px;
+  position: relative;
+  display: inline-block;
+  padding-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .section-title h2::before {
-    content: '';
-    position: absolute;
-    width: 60px;
-    height: 3px;
-    background-color: #003a87;
-    bottom: 0;
-    left: 0%;
-
+  content: "";
+  position: absolute;
+  width: 60px;
+  height: 3px;
+  background-color: #003a87;
+  bottom: 0;
+  left: 0%;
 }
 
 /* Cart */
 #cart-container table {
-    border-collapse: collapse;
-    width: 100%;
-    table-layout: fixed;
+  border-collapse: collapse;
+  width: 100%;
+  table-layout: fixed;
 }
 
 #cart-container table td {
-    border-bottom: 1px dashed rgb(134, 131, 131);
+  border-bottom: 1px dashed rgb(134, 131, 131);
 }
 
 #cart-container table thead {
-    font-weight: 800;
-    text-align: center;
+  font-weight: 800;
+  text-align: center;
 }
 
 #cart-container table thead td {
-    background-color: #003a87;
-    color: aliceblue;
-    border: none;
-    padding: 10px;
-
+  background-color: #003a87;
+  color: aliceblue;
+  border: none;
+  padding: 10px;
 }
 
 #cart-container table tbody td {
-    text-transform: capitalize;
-    font-weight: 500;
-    padding: 10px 15px 10px 15px;
-    /* margin-top: 10px;
+  text-transform: capitalize;
+  font-weight: 500;
+  padding: 10px 15px 10px 15px;
+  /* margin-top: 10px;
     margin-bottom: 10px;  */
 }
 
 #cart-container table td:nth-child(2) {
-    width: 270px;
-    text-align: right;
-    padding-right: 100px;
+  width: 270px;
+  text-align: right;
+  padding-right: 100px;
 }
 
 #cart-container table td:nth-child(3) {
-    width: 100px;
-    text-align: center;
+  width: 100px;
+  text-align: center;
 }
 
 #cart-container table td:nth-child(3) input {
-    width: 70px;
-    text-align: center;
-    padding: 10px 5px 10px 15px;
+  width: 70px;
+  text-align: center;
+  padding: 10px 5px 10px 15px;
 }
 
 #cart-container table td:nth-child(4) {
-    width: 270px;
-    text-align: right;
-    padding-right: 100px;
+  width: 270px;
+  text-align: right;
+  padding-right: 100px;
 }
 
 #cart-container table td:nth-child(5) {
-    width: 100px;
-    text-align: center;
+  width: 100px;
+  text-align: center;
 }
 
 #cart-container table tbody td img {
-    border-radius: 50%;
-    max-width: 70px;
-    border: 1px dashed #ddd;
-    padding: 3px;
-    margin-right: 25px
+  border-radius: 50%;
+  max-width: 70px;
+  border: 1px dashed #ddd;
+  padding: 3px;
+  margin-right: 25px;
 }
 
 .nama-content {
-    font-size: 20px;
-    display: flex;
-    align-items: center;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
 }
 
 .nama-content h4 p {
-    font-size: 13px;
-    font-weight: 500;
+  font-size: 13px;
+  font-weight: 500;
 }
 
 .jumlah-content {
-    width: 25%;
-    padding-left: 1px;
-    text-align: center;
-    align-items: center;
+  width: 25%;
+  padding-left: 1px;
+  text-align: center;
+  align-items: center;
 }
 
 .harga-content {
-    font-size: 20px;
-    /* padding-right: 10px; */
+  font-size: 20px;
+  /* padding-right: 10px; */
 }
 
 #Total {
-    font-size: 20px;
-    margin-top: 50px;
-    margin-right: 20px;
-    text-align: right;
+  font-size: 20px;
+  margin-top: 50px;
+  margin-right: 20px;
+  text-align: right;
 }
 
 #Total button {
-    background-color: #003a87;
-    color: aliceblue;
-    border-color: #003a87;
-    border-style: none;
-    padding: 12px 30px;
-    border-radius: 8%;
-    margin-left: 83px;
-    text-align: right;
-    font-family: 'Poppins';
+  background-color: #003a87;
+  color: aliceblue;
+  border-color: #003a87;
+  border-style: none;
+  padding: 12px 30px;
+  border-radius: 8%;
+  margin-left: 83px;
+  text-align: right;
+  font-family: "Poppins";
 }
 
 #Total button:hover {
-    opacity: .7;
+  opacity: 0.7;
 }
 
 * {
-    font-family: "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .navbar {
-    background-color: rgb(223, 223, 223) !important;
-    border-radius: 0px 0px 15px 15px;
-    box-shadow: 0px 0px 10px #9a9a9a;
+  background-color: rgb(223, 223, 223) !important;
+  border-radius: 0px 0px 15px 15px;
+  box-shadow: 0px 0px 10px #9a9a9a;
 }
 
 .navbar-nav {
-    font-size: 15px;
+  font-size: 15px;
 }
 
 .jumbotron {
-    font-family: "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .btn-jum {
-    background-color: black !important;
+  background-color: black !important;
 }
 
 .menu-placeholder {
-    background-color: rgb(223, 223, 223) !important;
-    border-radius: 15px 15px 0px 0px;
-    box-shadow: 0px 0px 10px #9a9a9a;
+  background-color: rgb(223, 223, 223) !important;
+  border-radius: 15px 15px 15px 15px;
+  box-shadow: 0px 0px 10px #9a9a9a;
 }
 
 ul {
-    list-style-type: none;
-    font-size: 14px;
+  list-style-type: none;
+  font-size: 14px;
 }
 
 li {
-    color: white;
+  color: white;
 }
