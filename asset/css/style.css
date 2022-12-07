@@ -178,9 +178,8 @@ body {
 }
 
 .menu-placeholder {
-  background-color: rgb(223, 223, 223) !important;
   border-radius: 15px 15px 15px 15px;
-  box-shadow: 0px 0px 10px #9a9a9a;
+  box-shadow: 0px 0px 10px #002647;
 }
 
 ul {
@@ -190,4 +189,13 @@ ul {
 
 li {
   color: white;
+}
+
+.jumbotron {
+  background-image: url("../img/Frame\ 1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: -20px;
+  margin-bottom: -20px;
 }
