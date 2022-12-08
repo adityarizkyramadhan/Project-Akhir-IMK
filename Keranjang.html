@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -10,108 +11,114 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
     <!-- <link rel="stylesheet" href="asset/css/responsive.css"> -->
-  </head>
+</head>
 
-  <body>
-    <nav class="navbar navbar-expand-lg" style="background-color: #ec831e !important">
-      <div class="container p-2">
-        <a class="navbar-brand fw-bold" style="color: #ffffff !important" href="#">KANTINKU</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto me-5 fw-light">
-            <li class="nav-item pe-3">
-              <a class="nav-link" style="color: #ffffff !important" aria-current="page" href="index.html">Home</a>
-            </li>
-            <li class="nav-item pe-3">
-              <a class="nav-link" style="color: #ffffff !important" href="index.html#menu">Menu</a>
-            </li>
-            <li class="nav-item pe-3">
-              <a class="nav-link" style="color: #ffffff !important" href="index.html#denah">Denah</a>
-            </li>
-            <li class="nav-item pe-3">
-              <a class="nav-link" style="color: #ffffff !important" href="keranjang.html#">Keranjang</a>
-            </li>
-          </ul>
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top" style="background-color: #ec831e !important">
+        <div class="container p-2">
+            <a class="navbar-brand fw-bold" style="color: #ffffff !important" href="#">KANTINKU</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto me-5 fw-light">
+                    <li class="nav-item pe-3">
+                        <a class="nav-link" style="color: #ffffff !important" aria-current="page"
+                            href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item pe-3">
+                        <a class="nav-link" style="color: #ffffff !important" href="index.html#menu">Menu</a>
+                    </li>
+                    <li class="nav-item pe-3">
+                        <a class="nav-link" style="color: #ffffff !important" href="index.html#denah">Denah</a>
+                    </li>
+                    <li class="nav-item pe-3">
+                        <a class="nav-link" style="color: #ffffff !important" href="keranjang.html#">Keranjang</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-      </div>
     </nav>
     <div class="main">
-      <div class="section-title">
-        <h2>Keranjang</h2>
-        <p>Berikut adalah estimasi harga yang perlu dibayar di kantin:</p>
-      </div>
+        <div class="section-title">
+            <h2>Keranjang</h2>
+            <p>Berikut adalah estimasi harga yang perlu dibayar di kantin:</p>
+        </div>
 
-      <section id="cart-container">
-        <table width="100%">
-          <thead>
-            <tr>
-              <td>Nama</td>
-              <td>Harga</td>
-              <td>Jumlah</td>
-              <td>Total</td>
-              <td>Remove</td>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td class="nama-content">
-                <img src="asset/img/SegoGoreng.jpg" alt="" />
-                <h4>
-                  Food Title 1
-                  <p>Nama Booth 1</p>
-                </h4>
-              </td>
-              <td class="harga-content">
-                <h4>15K</h4>
-              </td>
-              <td class="jumlah-content">
-                <h4><input value="1" type="number" /></h4>
-              </td>
-              <td class="harga-content">
-                <h4>30K</h4>
-              </td>
-              <td class="remove-content">
-                <a href="#"><i class="trash-alt"> x </i></a>
-              </td>
-            </tr>
-            <!-- No 2 -->
-            <tr>
-              <td class="nama-content">
-                <img src="asset/img/SegoGoreng.jpg" alt="" />
-                <h4>
-                  Food Title 2
-                  <p>Nama Booth 2</p>
-                </h4>
-              </td>
-              <td class="harga-content">
-                <h4>15K</h4>
-              </td>
-              <td class="jumlah-content">
-                <h4><input value="1" type="number" /></h4>
-              </td>
-              <td class="harga-content">
-                <h4>30K</h4>
-              </td>
-              <td class="remove-content">
-                <a href="#"><i class="trash-alt"> x </i></a>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      </section>
-      <section id="Total">
-        <h4>
-          60K
-          <span>
-            <button>Save</button>
-          </span>
-        </h4>
-      </section>
+        <section id="cart-container">
+            <table width="100%">
+                <thead>
+                    <tr>
+                        <td>Nama</td>
+                        <td>Harga</td>
+                        <td>Jumlah</td>
+                        <td>Total</td>
+                        <td>Remove</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="nama-content">
+                            <img src="asset/img/SegoGoreng.jpg" alt="" />
+                            <h4>
+                                Food Title 1
+                                <p>Nama Booth 1</p>
+                            </h4>
+                        </td>
+                        <td class="harga-content">
+                            <h4>15K</h4>
+                        </td>
+                        <td class="jumlah-content">
+                            <h4><input value="1" type="number" /></h4>
+                        </td>
+                        <td class="harga-content">
+                            <h4>30K</h4>
+                        </td>
+                        <td class="remove-content">
+                            <a href="#"><i class="trash-alt"> x </i></a>
+                        </td>
+                    </tr>
+                    <!-- No 2 -->
+                    <tr>
+                        <td class="nama-content">
+                            <img src="asset/img/SegoGoreng.jpg" alt="" />
+                            <h4>
+                                Food Title 2
+                                <p>Nama Booth 2</p>
+                            </h4>
+                        </td>
+                        <td class="harga-content">
+                            <h4>15K</h4>
+                        </td>
+                        <td class="jumlah-content">
+                            <h4><input value="1" type="number" /></h4>
+                        </td>
+                        <td class="harga-content">
+                            <h4>30K</h4>
+                        </td>
+                        <td class="remove-content">
+                            <a href="#"><i class="trash-alt"> x </i></a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section id="Total">
+            <h4>
+                60K
+                <span>
+                    <button>Save</button>
+                </span>
+            </h4>
+        </section>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
-  </body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+</body>
+
 </html>
